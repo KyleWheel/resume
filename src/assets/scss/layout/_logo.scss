@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+$duration: 1.2s;
+
+.logo {
+  @for $i from 1 through 5 {
+    .letter-#{$i} {
+      opacity: 0;
+      animation: $duration
+        cubic-bezier(0.4, 0.15, 0.22, 0.99)
+        0.3s + ($i / 8)
+        1
+        fadeIn
+        forwards;
+    }
+  }
+}

@@ -15,6 +15,7 @@
       'opacity #{_duration(article)} ease-in-out'
     )
   );
+  @include vendor('transition-delay', '4s');
   width: 100%;
   max-width: 100%;
   margin-top: 2rem;
