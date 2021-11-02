@@ -11,9 +11,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Kyle Wheeler</h1>
+        <h1>Hi, I'm Kyle.</h1>
         <p>
-          A front end developer and designer based in Victoria, B.C.
+          I'm a front end developer and designer with a specialty in Liquid theming and templating on the Shopify platform. <br />I'm based in Victoria, B.C. with my wife and twin toddlers. 
         </p>
       </div>
     </div>
