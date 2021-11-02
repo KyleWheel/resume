@@ -63,8 +63,15 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
+          <span className="image main loom">
+            <iframe 
+              src="https://www.loom.com/embed/9fd503912cae488f90c499e20993453c" 
+              frameborder="0" 
+              webkitallowfullscreen 
+              mozallowfullscreen 
+              allowfullscreen 
+              >
+            </iframe>
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
